@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+202618052_Lab_1/.ipynb_checkpoints/
+
+# Generated data files
+202618052_Lab_1/data/raw_books.csv
+202618052_Lab_1/data/cleaned_books.csv
+
+# Generated plots
+202618052_Lab_1/plots/
+
+# Scrapy cache (if generated during scraping)
+.scrapy/
+
+# VS Code workspace settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
