@@ -1,0 +1,9 @@
+﻿scrapy
+pandas
+matplotlib
+seaborn
+wordcloud
+jupyter
+ipykernel
+requests
+beautifulsoup4
