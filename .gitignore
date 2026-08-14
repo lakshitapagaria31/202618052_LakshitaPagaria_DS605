@@ -1,4 +1,4 @@
-# Virtual environment
+﻿# Virtual environment
 .venv/
 
 # Python cache
@@ -25,3 +25,6 @@ __pycache__/
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+# CSV files
+.csv
