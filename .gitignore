@@ -13,9 +13,6 @@ __pycache__/
 202618052_Lab_1/data/raw_books.csv
 202618052_Lab_1/data/cleaned_books.csv
 
-# Generated plots
-202618052_Lab_1/plots/
-
 # Scrapy cache (if generated during scraping)
 .scrapy/
 
