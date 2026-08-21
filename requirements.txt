@@ -7,3 +7,4 @@ jupyter
 ipykernel
 requests
 beautifulsoup4
+scikitlearn

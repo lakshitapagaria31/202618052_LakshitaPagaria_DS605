@@ -12,6 +12,9 @@ __pycache__/
 # Generated data files
 202618052_Lab_1/data/raw_books.csv
 202618052_Lab_1/data/cleaned_books.csv
+202618052_Lab_2/train.csv
+202618052_Lab_3/hotel_bookings.csv
+
 
 # Scrapy cache (if generated during scraping)
 .scrapy/
