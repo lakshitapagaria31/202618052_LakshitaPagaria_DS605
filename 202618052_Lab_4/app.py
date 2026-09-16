@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -19,10 +21,14 @@ st.set_page_config(
 # Load Trained Model
 # ============================================================
 
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "airbnb_price_prediction_pipeline.pkl"
+
+
 @st.cache_resource
 def load_model():
     """Load the trained Airbnb price prediction pipeline."""
-    return joblib.load("airbnb_price_prediction_pipeline.pkl")
+    return joblib.load(MODEL_PATH)
 
 
 try:
