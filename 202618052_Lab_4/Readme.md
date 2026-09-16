@@ -5,6 +5,9 @@ This assignment builds an end-to-end machine learning workflow for predicting Ai
 
 The objective is to understand the key factors affecting Airbnb listing prices and to create a model that can estimate a listing’s expected nightly rate based on its characteristics.
 
+## Live Demo
+- Streamlit App: https://airnb-prediction.streamlit.app/
+
 ## Project Structure
 - `202618052_Lab_4.ipynb`: Jupyter notebook containing the complete implementation of the assignment, including exploratory analysis, preprocessing, model training, evaluation, and tuning.
 - `app.py`: Streamlit application that accepts listing details from the user and predicts the estimated nightly price.
