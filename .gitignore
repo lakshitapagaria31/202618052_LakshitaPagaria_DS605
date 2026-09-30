@@ -3,7 +3,26 @@
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Python tooling and test output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -18,6 +37,13 @@ __pycache__/
 
 # Scrapy cache (if generated during scraping)
 .scrapy/
+
+# Notebook and experiment output
+**/results/
+**/plots/
+
+# Logs
+*.log
 
 # VS Code workspace settings
 .vscode/
