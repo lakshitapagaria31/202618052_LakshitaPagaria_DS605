@@ -55,3 +55,6 @@ Thumbs.db
 # CSV files
 *.csv
 202618052_Lab_2/train.csv
+
+# Local Lab 6 datasets
+202618052_Lab_6/data/
